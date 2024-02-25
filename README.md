@@ -32,6 +32,10 @@ npx eslint src
 
 ## Files explanation
 
+### .babelrc
+
+The line with `@babel/plugin-transform-modules-commonjs` solves the error `SyntaxError: Cannot use import statement outside a module` when running tests. [Reference](https://stackoverflow.com/questions/59709939/jest-cannot-use-import-statement-outside-a-module).
+
 ### package.json
 
 This file has been created running the command:
@@ -42,7 +46,17 @@ npm init
 
 After that, the file has been updated with different requirements.
 
+## Project explanation
+
+### Test non exported code
+
+Explained in this [link](https://stackoverflow.com/questions/54116070/how-can-i-unit-test-non-exported-functions).
+
 ## Installed libraries
+
+### @babel/plugin-transform-modules-commonjs
+
+Solves the error `SyntaxError: Cannot use import statement outside a module` when running tests. [Reference](https://stackoverflow.com/questions/59709939/jest-cannot-use-import-statement-outside-a-module).
 
 ### eslint
 
