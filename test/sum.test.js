@@ -1,9 +1,16 @@
+import { sum_2 } from "../src/sum.js";
 import { exportedForTesting } from "../src/sum.js";
 
 
 describe("Check function sum_1", function() {
     it('Check expected result', function() {
-        expect(sum_1(1)).toBe(2);
+        expect(exportedForTesting.sum_1(1)).toBe(2);
+    });
+});
+
+describe("Check function sum_2", function() {
+    it('Check expected result', function() {
+        expect(sum_2(1)).toBe(3);
     });
 });
 
