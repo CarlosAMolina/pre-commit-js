@@ -1,3 +1,5 @@
+import {describe, expect, it} from '@jest/globals';
+
 import { sum_2 } from "../src/sum.js";
 import { exportedForTesting } from "../src/sum.js";
 
