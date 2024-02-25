@@ -34,6 +34,20 @@ npm init
 
 After that, the file has been updated with different requirements.
 
+## Installed libraries
+
+### eslint
+
+Linter, explained in [this link](https://blog.logrocket.com/using-prettier-eslint-automate-formatting-fixing-javascript/).
+
+### jest
+
+For testing, explained in [this link](https://jestjs.io/docs/getting-started).
+
+### prettier
+
+Prettifier, explained in [this link](https://blog.logrocket.com/using-prettier-eslint-automate-formatting-fixing-javascript/).
+
 ## Resources
 
 Initialize the project:
