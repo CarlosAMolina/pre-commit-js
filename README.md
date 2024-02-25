@@ -22,6 +22,14 @@ In the same path as the `package.json` file, run:
 npm test
 ```
 
+## Linter
+
+To run the linter manually, in the same path as the `package.jon` file, execute:
+
+```bash
+npx eslint src
+```
+
 ## Files explanation
 
 ### package.json
