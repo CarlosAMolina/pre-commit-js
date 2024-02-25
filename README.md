@@ -2,7 +2,12 @@
 
 This is a template project to develop .js code.
 
-This project allows you to work with tests, pre-commit, linter, prettier, etc.
+This project allows you to work with:
+
+- pre-commit
+- tests
+- prettier
+- linter
 
 ## Configuration
 
