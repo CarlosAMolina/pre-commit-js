@@ -27,7 +27,25 @@ npm test
 To run the linter manually, in the same path as the `package.jon` file, execute:
 
 ```bash
-npx eslint src
+npm run lint
+```
+
+The previous command will execute the `lint` script defined in `package.json`.
+
+## Prettier
+
+To run the prettier manually, in the same path as the `package.jon` file, execute:
+
+```bash
+npm run prettier
+```
+
+The previous command will execute the `prettier` script defined in `package.json`.
+
+To fix the prettier issues, run:
+
+```bash
+npm run prettier:fix
 ```
 
 ## Files explanation
