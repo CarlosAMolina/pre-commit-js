@@ -20,9 +20,7 @@ After that, the file has been updated with different requirements.
 
 ### Install requirements
 
-TODO verify, install dev dependencies
-
-In the same path as the `package.jon` file, run:
+In the same path as the `package.json` file, run:
 
 ```bash
 npm install
