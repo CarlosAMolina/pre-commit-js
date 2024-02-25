@@ -24,6 +24,8 @@ npm test
 
 ## Linter
 
+Note. The linter will be run automatically with pre-commit before each commit.
+
 To run the linter manually, in the same path as the `package.jon` file, execute:
 
 ```bash
@@ -33,6 +35,8 @@ npm run lint
 The previous command will execute the `lint` script defined in `package.json`.
 
 ## Prettier
+
+Note. The prettier will be run automatically with pre-commit before each commit.
 
 To run the prettier manually, in the same path as the `package.jon` file, execute:
 
