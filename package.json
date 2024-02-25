@@ -4,7 +4,7 @@
   "description": "js pre-commit template",
   "main": "src/sum.js",
   "scripts": {
-    "test": "jest ./test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
