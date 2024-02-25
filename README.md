@@ -100,6 +100,10 @@ Linter, explained in [this link](https://blog.logrocket.com/using-prettier-eslin
 
 For testing, explained in [this link](https://jestjs.io/docs/getting-started).
 
+### pre-commit
+
+Read [this link](https://www.npmjs.com/package/pre-commit).
+
 ### prettier
 
 Prettifier, explained in [this link](https://blog.logrocket.com/using-prettier-eslint-automate-formatting-fixing-javascript/).
