@@ -36,6 +36,22 @@ npx eslint src
 
 The line with `@babel/plugin-transform-modules-commonjs` solves the error `SyntaxError: Cannot use import statement outside a module` when running tests. [Reference](https://stackoverflow.com/questions/59709939/jest-cannot-use-import-statement-outside-a-module).
 
+### .eslintrc.json
+
+#### Fix errors
+
+Error `Parsing error: The keyword 'export' is reserved`.
+
+Explained in this [link](https://stackoverflow.com/questions/42706584/eslint-error-parsing-error-the-keyword-const-is-reserved), I use:
+
+- "ecmaVersion": "latest"
+
+Error `Parsing error: 'import' and 'export' may appear only with 'sourceType: module'`
+
+Explained in this [link](https://stackoverflow.com/questions/60338944/eslint-howto-fix-parsing-error-import-and-export-may-only-appear-at-the-top). I add:
+
+- "sourceType": "module"
+
 ### package.json
 
 This file has been created running the command:
