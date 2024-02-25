@@ -1,0 +1,25 @@
+{
+  "name": "pre-commit-js",
+  "version": "1.0.0",
+  "description": "js pre-commit template",
+  "main": "src/sum.js",
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosAMolina/pre-commit-js.git"
+  },
+  "author": "Carlos A Molina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosAMolina/pre-commit-js/issues"
+  },
+  "homepage": "https://github.com/CarlosAMolina/pre-commit-js#readme",
+  "devDependenciesComments": {
+    "eslint, prettier": "https://blog.logrocket.com/using-prettier-eslint-automate-formatting-fixing-javascript/"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
