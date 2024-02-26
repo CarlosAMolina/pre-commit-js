@@ -9,6 +9,12 @@ This project allows you to work with:
 - prettier
 - linter
 
+## How to use this template in your project
+
+Copy all the files in your project.
+
+Modify the `package.json` file, replace `pre-commit-js` with the name of your project. My name appears in this file too, modify it.
+
 ## Configuration
 
 ### Install requirements
