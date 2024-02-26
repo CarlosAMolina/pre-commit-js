@@ -13,7 +13,16 @@ This project allows you to work with:
 
 Copy all the files in your project.
 
-Modify the `package.json` file, replace `pre-commit-js` with the name of your project. My name appears in this file too, modify it.
+### package.json
+
+Replace `pre-commit-js` with the name of your project.
+
+Update values of:
+
+- desription
+- main
+
+My name and my GitHub account appear in this file too, modify them.
 
 ## Configuration
 
